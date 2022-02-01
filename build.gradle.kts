@@ -31,6 +31,7 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("com.baomidou:mybatis-plus-boot-starter:3.5.0")
 }
 
 tasks.withType<KotlinCompile> {
